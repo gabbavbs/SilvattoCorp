@@ -7,222 +7,31 @@
 
 body {
     background-color: #EFEFEF;
-    color: #322D2D;
-    margin: 0 150px;
-}
-
-.textBlue {
-    color: #00C2FF;
-}
-
-#headerContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    color: #003952;
 }
 
 nav {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 170px;
-}
-
-#logoNav {
-    font-family: Lexend Zetta, 'sans-serif';
-    font-size: 32px;
-    font-weight: normal;
-}
-
-#buttonsNav button {
-    font-family: ¨Roboto Flex¨, 'sans-serif';
-    border: none;
-    padding: 0;
-    background: none;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 20px;
-    letter-spacing: -1px;
-    margin-left: 58px;
-}
-
-header h1 {
-    font-family: Lexend Zetta, 'sans-serif';
-    font-size: 45px;
-    font-weight: 450;
-    letter-spacing: -2px;
-    max-width: 670px;
-    line-height: 60px;
-}
-
-#headerParagraph {
-    font-family: Lexend Zetta, 'sans-serif';
-    font-size: 30px;
-    font-weight: 300;
-    letter-spacing: -2px;
-    width: 660px;
-    line-height: 45px;
-    margin-top: 35px;
-}
-
-#buttonOrcamento {
-    display: flex;
-    margin-top: 35px;
-    width: 445px;
     height: 60px;
-    align-items: center;
-    justify-content: center;
-    background-color: #00C2FF;
-    cursor: pointer;
+    border-bottom: 1px solid #003952;
 }
 
-#buttonOrcamento button {
-    font-family: Lexend Zetta, 'sans-serif';
-    border: none;
-    padding: 0;
-    background: none;
-    text-decoration: none;
-    font-size: 24px;
-    letter-spacing: -2px;
-    color: white;
-    cursor: pointer;
+.ladoA {
+
 }
 
-.sideRight img:not(:hover){
-    transform: translateY(0);
-    transition: transform 0.2s ease-out;
+.centro {
+
 }
 
-.sideRight img:hover{
-    transform: translateY(-10px);
-    transition: 0.2s ease-out;
-    cursor: pointer;
+.ladoB {
+
 }
 
-@media (max-width: 1850px) {
-    .sideRight img{
-        width: 160px;
-        height: 600px;
-    }
-    header h1 {
-        font-family: Lexend Zetta, 'sans-serif';
-        font-size: 45px;
-        font-weight: 450;
-        letter-spacing: -2px;
-        max-width: 640px;
-        line-height: 60px;
-    }
-
-    #headerParagraph {
-        font-family: Lexend Zetta, 'sans-serif';
-        font-size: 30px;
-        font-weight: 300;
-        letter-spacing: -2px;
-        width: 640px;
-        line-height: 45px;
-        margin-top: 35px;
+@media (max-width: 425px) {
+    nav ul {
+        display: none;
     }
 }
-
-@media (max-width: 1600px) {
-    nav {
-        justify-content: space-around;
-    }
-
-    #logoNav {
-        font-size: 24px;
-    }
-
-    .sideRight img {
-        width: 116px;    #headerParagraph {
-        font-family: Lexend Zetta, 'sans-serif';
-        font-size: 15px;
-        font-weight: 300;
-        letter-spacing: -2px;
-        max-width: 390px;
-        line-height: 30px;
-        margin-top: 5px;
-    }
-
-    #buttonOrcamento {
-        display: flex;
-        margin-top: 10px;
-        width: 240px;
-        height: 30px;
-        align-items: center;
-        justify-content: center;
-        background-color: #00C2FF;
-        cursor: pointer;
-    }
-
-    #buttonOrcamento button {
-        font-family: Lexend Zetta, 'sans-serif';
-        border: none;
-        padding: 0;
-        background: none;
-        text-decoration: none;
-        font-size: 14px;
-        letter-spacing: -2px;
-        color: white;
-        cursor: pointer;
-    }
-        max-width: 390px;
-        line-height: 30px;
-        margin-top: 5px;
-    }
-
-    #buttonOrcamento {
-        display: flex;
-        margin-top: 10px;
-        width: 240px;
-        height: 30px;
-        align-items: center;
-        justify-content: center;
-        background-color: #00C2FF;
-        cursor: pointer;
-    }
-
-    #buttonOrcamento button {
-        font-family: Lexend Zetta, 'sans-serif';
-        border: none;
-        padding: 0;
-        background: none;
-        text-decoration: none;
-        font-size: 14px;
-        letter-spacing: -2px;
-        color: white;
-        cursor: pointer;
-    }
-
-    body {
-        background-color: #EFEFEF;
-        margin-left: 35px;
-        margin-right: 35px;
-        color: #322D2D;
-    }
-  }
-
-  @media (max-width: 1600px) {
-    #headerContainer {
-        flex-direction: column; 
-        align-items: center;
-        text-align: center;
-    }
-
-    .sideLeft {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .sideRight {
-        margin-top: 20px;
-    }
-
-    .sideRight img{
-        width: 250px;
-        height: 550px;
-    }
-  }
