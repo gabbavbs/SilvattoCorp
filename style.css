@@ -19,15 +19,17 @@ nav {
 }
 
 .ladoA {
-
+    margin-left: 50px;
 }
 
 .centro {
-
+    font-family: Lexend Zetta, 'sans-serif';
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .ladoB {
-
+    margin-right: 50px;
 }
 
 @media (max-width: 425px) {
