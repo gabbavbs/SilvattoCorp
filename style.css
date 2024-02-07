@@ -20,6 +20,8 @@ nav {
 
 .ladoA {
     margin-left: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .ladoA img {
@@ -35,11 +37,8 @@ nav {
 
 .ladoB {
     margin-right: 20px;
-}
-
-.ladoB img {
-    width: 30px;
-    height: 22.5px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 500px) {
