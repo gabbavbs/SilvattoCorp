@@ -5,6 +5,16 @@
     padding: 0;
 }
 
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 body {
     background-color: #FFFFFF;
     color: #003952;
@@ -14,15 +24,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
     border-bottom: 1px solid #003952;
+    height: 60px;
 }
 
 .ladoA {
-    margin-left: 20px;
-    height: 25px;
     align-items: center;
     justify-content: center;
+    margin-left: 20px;
+    height: 25px;
 }
 
 .ladoA img {
@@ -30,24 +40,106 @@ nav {
     height: 25px;
 }
 
+.centro {
+    display: flex;
+    margin-left: 40px;
+    font-family: Roboto Flex, 'sans-serif';
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .centro p {
     font-family: Lexend Zetta, 'sans-serif';
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.centro .buttonsNav {
+    display: flex;
+    margin-left: 45px;
+}
+
+.centro li {
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: 500;
 }
 
 .ladoB {
-    margin-right: 20px;
-    align-items: center;
-    justify-content: center;
+    margin-right: 40px;
 }
 
+.ladoB img {
+    width: 40px;
+    height: 35px;
+}
+
+#whattssvg {
+    height: 34px;
+    margin-right: 10px;
+}
+
+/* __________________________________________________________________ MEDIA QUERIES __________________________________________________________________ */
+/* __________________________________________________________________ MEDIA QUERIES __________________________________________________________________ */
+/* __________________________________________________________________ MEDIA QUERIES __________________________________________________________________ */
+/* __________________________________________________________________ MEDIA QUERIES __________________________________________________________________ */
+/* __________________________________________________________________ MEDIA QUERIES __________________________________________________________________ */
+
 @media (max-width: 767px) {
-    .centro ul {
+    .centro {
+        display: block;
+        margin-left: 0;
+    }
+
+    .centro .buttonsNav li {
         display: none;
     }
 
+    .ladoB {
+        margin-right: 20px;
+    }
+
+    #whattssvg {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .ladoA {
+        display: none;
+    }
+
+    .centro p {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .ladoA {
+        display: none;
+    }
+
+    .centro p {
+        font-size: 36px;
+    }
+
     .centro li {
+        font-size: 20px;
+    }
+
+    .ladoB img {
+        width: 45px;
+        height: 40px;
+    }
+    
+    #whattssvg {
+        height: 38px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .ladoA {
         display: none;
     }
 }
