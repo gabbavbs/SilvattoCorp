@@ -42,7 +42,7 @@ nav {
     justify-content: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .centro ul {
         display: none;
     }
