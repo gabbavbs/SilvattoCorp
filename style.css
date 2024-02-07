@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #EFEFEF;
+    background-color: #FFFFFF;
     color: #003952;
 }
 
@@ -22,9 +22,14 @@ nav {
     margin-left: 20px;
 }
 
+.ladoA img {
+    width: 30px;
+    height: 25px;
+}
+
 .centro p {
     font-family: Lexend Zetta, 'sans-serif';
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -32,7 +37,12 @@ nav {
     margin-right: 20px;
 }
 
-@media (max-width: 425px) {
+.ladoB img {
+    width: 30px;
+    height: 22.5px;
+}
+
+@media (max-width: 500px) {
     .centro ul {
         display: none;
     }
